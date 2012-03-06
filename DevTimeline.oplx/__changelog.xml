@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.0</version>
+  <task-change-set user="utopilot" date="2012-03-04T16:36:15.772Z" timestamp="2012-03-04T16:36:15.772Z">
+    <change idref="t53" to="t-1" to-position="1" resolved="yes">
+      <change idref="t53" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t53" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t53" attribute="title" type="string" to="Mobile Development"/>
+    </change>
+    <change idref="t67" to="t54" to-position="0" resolved="yes">
+      <change idref="t67" attribute="effort" type="real" from="28800" to="115200"/>
+      <change idref="t67" attribute="internalAssignments" type="string" from="" to="9"/>
+      <change idref="t67" attribute="startConstraintDate" type="date" to="2012-03-04T05:00:00.000Z"/>
+      <change idref="t67" attribute="title" type="string" to="Flow Chart"/>
+    </change>
+    <change idref="t68" to="t54" to-position="1" resolved="yes">
+      <change idref="t68" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t68" attribute="internalAssignments" type="string" from="" to="9"/>
+      <change idref="t68" attribute="startConstraintDate" type="date" to="2012-03-06T16:00:00.000Z"/>
+      <change idref="t68" attribute="title" type="string" to="Wireframes"/>
+    </change>
+    <change idref="t59" to="t56" to-position="0" resolved="yes">
+      <change idref="t59" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t59" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t59" attribute="startConstraintDate" type="date" to="2012-03-04T05:00:00.000Z"/>
+      <change idref="t59" attribute="title" type="string" to="User Profile"/>
+    </change>
+    <change idref="t58" to="t56" to-position="1" resolved="yes">
+      <change idref="t58" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t58" attribute="internalAssignments" type="string" from="" to="31"/>
+      <change idref="t58" attribute="startConstraintDate" type="date" to="2012-04-25T18:00:00.000Z"/>
+      <change idref="t58" attribute="title" type="string" to="Video Encoding"/>
+    </change>
+    <change idref="t60" to="t56" to-position="2" resolved="yes">
+      <change idref="t60" attribute="effort" type="real" from="28800" to="576000"/>
+      <change idref="t60" attribute="internalAssignments" type="string" from="" to="31; 6"/>
+      <change idref="t60" attribute="startConstraintDate" type="date" to="2012-04-25T17:00:00.000Z"/>
+      <change idref="t60" attribute="title" type="string" to="Upload Syncronization"/>
+    </change>
+    <change idref="t61" to="t56" to-position="3" resolved="yes">
+      <change idref="t61" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t61" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t61" attribute="startConstraintDate" type="date" to="2012-05-09T12:00:00.000Z"/>
+      <change idref="t61" attribute="title" type="string" to="Video Recorder"/>
+    </change>
+    <change idref="t62" to="t56" to-position="4" resolved="yes">
+      <change idref="t62" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t62" attribute="internalAssignments" type="string" from="" to="6; 31"/>
+      <change idref="t62" attribute="startConstraintDate" type="date" to="2012-06-05T19:00:00.000Z"/>
+      <change idref="t62" attribute="title" type="string" to="Registration"/>
+    </change>
+    <change idref="t63" to="t56" to-position="5" resolved="yes">
+      <change idref="t63" attribute="effort" type="real" from="28800" to="288000"/>
+      <change idref="t63" attribute="internalAssignments" type="string" from="" to="31; 6"/>
+      <change idref="t63" attribute="startConstraintDate" type="date" to="2012-05-22T15:00:00.000Z"/>
+      <change idref="t63" attribute="title" type="string" to="Data Localization "/>
+    </change>
+    <change idref="t64" to="t56" to-position="6" resolved="yes">
+      <change idref="t64" attribute="effort" type="real" from="28800" to="331200"/>
+      <change idref="t64" attribute="internalAssignments" type="string" from="" to="31; 6"/>
+      <change idref="t64" attribute="startConstraintDate" type="date" to="2012-05-29T15:00:00.000Z"/>
+      <change idref="t64" attribute="title" type="string" to="Geographic Range Search"/>
+    </change>
+    <change idref="t65" to="t56" to-position="7" resolved="yes">
+      <change idref="t65" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t65" attribute="internalAssignments" type="string" from="" to="6"/>
+      <change idref="t65" attribute="startConstraintDate" type="date" to="2012-06-05T17:00:00.000Z"/>
+      <change idref="t65" attribute="title" type="string" to="Custom IOS Map"/>
+    </change>
+    <change idref="t78" to="t70" to-position="0" resolved="yes">
+      <change idref="t78" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t78" attribute="startConstraintDate" type="date" to="2012-03-13T18:00:00.000Z"/>
+      <change idref="t78" attribute="title" type="string" to="Prepare All UI Test Scenarios"/>
+    </change>
+    <change idref="t72" to="t70" to-position="1" resolved="yes">
+      <change idref="t72" attribute="effort" type="real" from="28800" to="111600"/>
+      <change idref="t72" attribute="startConstraintDate" type="date" to="2012-03-15T12:00:00.000Z"/>
+      <change idref="t72" attribute="title" type="string" to="UI Test"/>
+    </change>
+    <change idref="t73" to="t70" to-position="2" resolved="yes">
+      <change idref="t73" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t73" attribute="internalEffortDone" type="real" from="0" to="28800"/>
+      <change idref="t73" attribute="startConstraintDate" type="date" to="2012-04-20T19:00:00.000Z"/>
+      <change idref="t73" attribute="title" type="string" to="Design Test"/>
+    </change>
+    <change idref="t74" to="t70" to-position="3" resolved="yes">
+      <change idref="t74" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t74" attribute="startConstraintDate" type="date" to="2012-05-18T18:00:00.000Z"/>
+      <change idref="t74" attribute="title" type="string" to="Alpha Test"/>
+    </change>
+    <change idref="t75" to="t70" to-position="4" resolved="yes">
+      <change idref="t75" attribute="effort" type="real" from="28800" to="86400"/>
+      <change idref="t75" attribute="startConstraintDate" type="date" to="2012-05-25T14:00:00.000Z"/>
+      <change idref="t75" attribute="title" type="string" to="Beta Test 1"/>
+    </change>
+    <change idref="t76" to="t70" to-position="5" resolved="yes">
+      <change idref="t76" attribute="effort" type="real" from="28800" to="201600"/>
+      <change idref="t76" attribute="startConstraintDate" type="date" to="2012-06-01T15:00:00.000Z"/>
+      <change idref="t76" attribute="title" type="string" to="Beta Test 2"/>
+    </change>
+    <change idref="t70" to="t53" to-position="0" resolved="yes">
+      <change idref="t70" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t70" attribute="startConstraintDate" type="date" to="2012-03-04T05:00:00.000Z"/>
+      <change idref="t70" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t70" attribute="title" type="string" to="TESTING"/>
+    </change>
+    <change idref="t54" to="t53" to-position="1" resolved="yes">
+      <change idref="t54" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t54" attribute="startConstraintDate" type="date" to="2012-03-07T13:00:00.000Z"/>
+      <change idref="t54" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t54" attribute="title" type="string" to="IA"/>
+    </change>
+    <change idref="t55" to="t53" to-position="2" resolved="yes">
+      <change idref="t55" attribute="effort" type="real" from="28800" to="860400"/>
+      <change idref="t55" attribute="internalAssignments" type="string" from="" to="8"/>
+      <change idref="t55" attribute="startConstraintDate" type="date" to="2012-03-19T20:00:00.000Z"/>
+      <change idref="t55" attribute="title" type="string" to="DESIGN"/>
+    </change>
+    <change idref="t56" to="t53" to-position="3" resolved="yes">
+      <change idref="t56" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t56" attribute="startConstraintDate" type="date" to="2012-04-20T18:00:00.000Z"/>
+      <change idref="t56" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t56" attribute="title" type="string" to="PROGRAMMING"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="utopilot" date="2012-03-04T17:43:11.695Z" timestamp="2012-03-04T17:43:11.695Z">
+    <change idref="t76" attribute="startConstraintDate" type="date" from="2012-06-01T15:00:00.000Z" to="2012-05-31T20:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="utopilot" date="2012-03-04T16:36:15.769Z" timestamp="2012-03-04T16:36:15.769Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to=";28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;28800,43200,46800,61200;" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="utopilot" date="2012-03-04T16:36:15.768Z" timestamp="2012-03-04T16:36:15.768Z">
+    <change idref="m1" attribute="groupTaskStyle" type="dict" to="{
+    &quot;font-weight&quot; = 9;
+}" resolved="yes"/>
+    <change idref="m1" attribute="columnTitleStyle" type="dict" to="{
+    &quot;font-size&quot; = 11;
+    &quot;font-weight&quot; = 9;
+    &quot;paragraph-alignment&quot; = center;
+}" resolved="yes"/>
+    <change idref="m1" attribute="currencyName" type="string" to="$1,234.56" resolved="yes"/>
+    <change idref="m1" attribute="projectTitle" type="string" to="DevTimeline" resolved="yes"/>
+    <change idref="m1" attribute="fixedDate" type="date" to="2012-02-29T13:00:00.000Z" resolved="yes"/>
+    <change idref="m1" attribute="noteStyle" type="dict" to="{
+    &quot;font-family&quot; = Helvetica;
+    &quot;font-fill&quot; =     {
+        w = &quot;0.334677&quot;;
+    };
+    &quot;font-italic&quot; = 1;
+}" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
