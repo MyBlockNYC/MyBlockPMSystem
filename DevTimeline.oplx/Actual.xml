@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="pW6FkDiHLPz">
+  <start-date>2012-02-29T13:00:00.000Z</start-date>
+  <top-resource idref="r-1"/>
+  <resource id="r-1">
+    <type>Group</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+    <child-resource idref="r12"/>
+    <child-resource idref="r14"/>
+    <child-resource idref="r13"/>
+    <child-resource idref="r16"/>
+    <child-resource idref="r33"/>
+  </resource>
+  <resource id="r2">
+    <name>International Dev - Huseyin</name>
+    <type>Staff</type>
+    <schedule>
+      <schedule-day day-of-week="sunday"/>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="28800" end-time="43200"/>
+        <time-span start-time="46800" end-time="61200"/>
+      </schedule-day>
+      <schedule-day day-of-week="saturday"/>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
+  </resource>
+  <resource id="r3">
+    <name>Dev3</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r4">
+    <name>Dev4</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r5">
+    <name>Admin1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r6">
+    <name>iOS</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r7">
+    <name>TechSupport1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r8">
+    <name>Design1</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r9">
+    <name>UI Design</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r10">
+    <name>Project Manager</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r11">
+    <name>Design2</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r12">
+    <name>Developer Team</name>
+    <type>Group</type>
+    <child-resource idref="r19"/>
+    <child-resource idref="r10"/>
+    <child-resource idref="r2"/>
+    <child-resource idref="r3"/>
+    <child-resource idref="r4"/>
+    <child-resource idref="r5"/>
+  </resource>
+  <resource id="r13">
+    <name>Mobile Dev</name>
+    <type>Group</type>
+    <child-resource idref="r6"/>
+  </resource>
+  <resource id="r14">
+    <name>Design Team</name>
+    <type>Group</type>
+    <child-resource idref="r9"/>
+    <child-resource idref="r8"/>
+    <child-resource idref="r11"/>
+  </resource>
+  <resource id="r16">
+    <name>Support/ Testing</name>
+    <type>Group</type>
+    <child-resource idref="r7"/>
+  </resource>
+  <resource id="r19">
+    <name>Lead Tech Concept - Igal</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r29">
+    <name>AlexR</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r30">
+    <name>AlexK</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r31">
+    <name>IgalN</name>
+    <type>Staff</type>
+  </resource>
+  <resource id="r33">
+    <name>Platform Concept Management</name>
+    <type>Group</type>
+    <child-resource idref="r29"/>
+    <child-resource idref="r30"/>
+    <child-resource idref="r31"/>
+  </resource>
+  <top-task idref="t-1"/>
+  <task id="t-1">
+    <type>group</type>
+    <child-task idref="t4"/>
+    <child-task idref="t53"/>
+  </task>
+  <task id="t1">
+    <title>Phase 1 - Optimization for NYC</title>
+    <type>group</type>
+    <start-constraint-date>2012-07-01T12:00:00.000Z</start-constraint-date>
+    <child-task idref="t8"/>
+    <child-task idref="t13"/>
+    <child-task idref="t14"/>
+    <child-task idref="t28"/>
+    <child-task idref="t15"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.227451" g="0.898039" b="0.458824"/>
+      </value>
+    </style>
+  </task>
+  <task id="t2">
+    <title>Phase 2 - Mobile</title>
+    <type>group</type>
+    <start-constraint-date>2012-08-01T12:00:00.000Z</start-constraint-date>
+    <child-task idref="t10"/>
+    <child-task idref="t16"/>
+    <child-task idref="t17"/>
+    <child-task idref="t30"/>
+    <child-task idref="t18"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.796078" b="0.219608"/>
+      </value>
+    </style>
+  </task>
+  <task id="t3">
+    <title>Phase 4 - Key Cities/ National Rollout</title>
+    <type>group</type>
+    <start-constraint-date>2013-01-01T13:00:00.000Z</start-constraint-date>
+    <child-task idref="t12"/>
+    <child-task idref="t22"/>
+    <child-task idref="t23"/>
+    <child-task idref="t33"/>
+    <child-task idref="t34"/>
+    <child-task idref="t35"/>
+    <child-task idref="t36"/>
+    <child-task idref="t24"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+  </task>
+  <task id="t4">
+    <title>Dev Timeline for 18 Months</title>
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t2"/>
+    <child-task idref="t6"/>
+    <child-task idref="t3"/>
+    <child-task idref="t39"/>
+    <child-task idref="t47"/>
+  </task>
+  <task id="t6">
+    <title>Phase 3 - Services</title>
+    <type>group</type>
+    <start-constraint-date>2012-11-01T12:00:00.000Z</start-constraint-date>
+    <child-task idref="t11"/>
+    <child-task idref="t19"/>
+    <child-task idref="t20"/>
+    <child-task idref="t31"/>
+    <child-task idref="t21"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.439216" b="0.227451"/>
+      </value>
+    </style>
+  </task>
+  <task id="t8">
+    <title>Concept</title>
+    <effort>1296000</effort>
+    <locked-start-date>2012-07-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.227451" g="0.898039" b="0.458824"/>
+      </value>
+    </style>
+    <assignment idref="r33"/>
+  </task>
+  <task id="t10">
+    <title>Concept</title>
+    <effort>1152000</effort>
+    <locked-start-date>2012-08-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.796078" b="0.219608"/>
+      </value>
+    </style>
+    <assignment idref="r33"/>
+  </task>
+  <task id="t11">
+    <title>Concept</title>
+    <effort>1152000</effort>
+    <locked-start-date>2012-11-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.439216" b="0.227451"/>
+      </value>
+    </style>
+    <assignment idref="r33"/>
+  </task>
+  <task id="t12">
+    <title>Concept</title>
+    <effort>1152000</effort>
+    <locked-start-date>2013-01-01T15:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+    <assignment idref="r33"/>
+  </task>
+  <task id="t13">
+    <title>Design + UI</title>
+    <effort>1872000</effort>
+    <locked-start-date>2012-07-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.227451" g="0.898039" b="0.458824"/>
+      </value>
+    </style>
+    <assignment idref="r14"/>
+  </task>
+  <task id="t14">
+    <title>Development</title>
+    <effort>2534400</effort>
+    <locked-start-date>2012-08-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.227451" g="0.898039" b="0.458824"/>
+      </value>
+    </style>
+    <assignment idref="r12"/>
+  </task>
+  <task id="t15">
+    <title>Testing</title>
+    <effort>7776000</effort>
+    <locked-start-date>2012-10-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.227451" g="0.898039" b="0.458824"/>
+      </value>
+    </style>
+    <assignment idref="r7"/>
+    <assignment idref="r29"/>
+    <assignment idref="r31"/>
+  </task>
+  <task id="t16">
+    <title>Design + UI</title>
+    <effort>1296000</effort>
+    <locked-start-date>2012-09-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.796078" b="0.219608"/>
+      </value>
+    </style>
+    <assignment idref="r14"/>
+  </task>
+  <task id="t17">
+    <title>Development</title>
+    <effort>1872000</effort>
+    <locked-start-date>2012-09-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.796078" b="0.219608"/>
+      </value>
+    </style>
+    <assignment idref="r12"/>
+  </task>
+  <task id="t18">
+    <title>Testing</title>
+    <effort>3600000</effort>
+    <locked-start-date>2012-11-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.796078" b="0.219608"/>
+      </value>
+    </style>
+    <assignment idref="r16"/>
+    <assignment idref="r29"/>
+    <assignment idref="r31"/>
+  </task>
+  <task id="t19">
+    <title>Design + UI</title>
+    <effort>1872000</effort>
+    <locked-start-date>2012-11-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.439216" b="0.227451"/>
+      </value>
+    </style>
+    <assignment idref="r14"/>
+  </task>
+  <task id="t20">
+    <title>Development</title>
+    <effort>2448000</effort>
+    <locked-start-date>2012-12-01T13:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.439216" b="0.227451"/>
+      </value>
+    </style>
+    <assignment idref="r13"/>
+  </task>
+  <task id="t21">
+    <title>Testing</title>
+    <effort>7344000</effort>
+    <locked-start-date>2013-02-01T13:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.439216" b="0.227451"/>
+      </value>
+    </style>
+    <assignment idref="r16"/>
+    <assignment idref="r29"/>
+    <assignment idref="r31"/>
+  </task>
+  <task id="t22">
+    <title>Design + UI</title>
+    <effort>1872000</effort>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+    <assignment idref="r14"/>
+  </task>
+  <task id="t23">
+    <title>Development</title>
+    <effort>1843200</effort>
+    <locked-start-date>2013-02-01T13:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+    <assignment idref="r12"/>
+  </task>
+  <task id="t24">
+    <title>Testing</title>
+    <effort>9504000</effort>
+    <locked-start-date>2013-04-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+    <assignment idref="r16"/>
+    <assignment idref="r29"/>
+    <assignment idref="r31"/>
+  </task>
+  <task id="t28">
+    <title>LAUNCH OPTIMIZATION</title>
+    <type>milestone</type>
+    <locked-start-date>2012-11-30T22:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+  </task>
+  <task id="t30">
+    <title>LAUNCH MOBILE</title>
+    <type>milestone</type>
+    <locked-start-date>2012-11-30T22:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+  </task>
+  <task id="t31">
+    <title>LAUNCH SERVICES IN NYC</title>
+    <type>milestone</type>
+    <locked-start-date>2013-03-29T21:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+  </task>
+  <task id="t33">
+    <title>LAUNCH CITY #1</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <locked-start-date>2013-05-01T21:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+  </task>
+  <task id="t34">
+    <title>LAUNCH CITY #2</title>
+    <type>milestone</type>
+    <locked-start-date>2013-06-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+  </task>
+  <task id="t35">
+    <title>LAUNCH CITY #3</title>
+    <type>milestone</type>
+    <locked-start-date>2013-07-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+  </task>
+  <task id="t36">
+    <title>LAUNCH CITY #4</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <locked-start-date>2013-08-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.898039" g="0.227451" b="0.227451"/>
+      </value>
+    </style>
+  </task>
+  <task id="t37">
+    <title>Development Testing</title>
+    <effort>3888000</effort>
+    <locked-start-date>2012-12-30T13:00:00.000Z</locked-start-date>
+    <assignment idref="r31"/>
+    <assignment idref="r29"/>
+    <assignment idref="r16"/>
+  </task>
+  <task id="t39">
+    <title>SideWork - Platform Replication Research</title>
+    <type>group</type>
+    <child-task idref="t40"/>
+    <child-task idref="t37"/>
+  </task>
+  <task id="t40">
+    <title>R&amp;D for Platform Replication</title>
+    <effort>1152000</effort>
+    <locked-start-date>2012-11-30T13:00:00.000Z</locked-start-date>
+    <assignment idref="r19"/>
+  </task>
+  <task id="t46">
+    <title>Testing</title>
+    <effort>9504000</effort>
+    <locked-start-date>2013-09-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.752941" g="0.752941" b="0.752941"/>
+      </value>
+    </style>
+    <assignment idref="r16"/>
+    <assignment idref="r29"/>
+    <assignment idref="r31"/>
+  </task>
+  <task id="t47">
+    <title>Phase 5 - International Expansion</title>
+    <type>group</type>
+    <child-task idref="t48"/>
+    <child-task idref="t50"/>
+    <child-task idref="t51"/>
+    <child-task idref="t49"/>
+    <child-task idref="t46"/>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.752941" g="0.752941" b="0.752941"/>
+      </value>
+    </style>
+  </task>
+  <task id="t48">
+    <title>Concept</title>
+    <effort>1872000</effort>
+    <locked-start-date>2013-05-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.752941" g="0.752941" b="0.752941"/>
+      </value>
+    </style>
+    <assignment idref="r33"/>
+  </task>
+  <task id="t49">
+    <title>LAUNCH GLOBAL</title>
+    <type>milestone</type>
+    <completion-percentage>1</completion-percentage>
+    <locked-start-date>2013-11-29T22:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.752941" g="0.752941" b="0.752941"/>
+      </value>
+    </style>
+  </task>
+  <task id="t50">
+    <title>Design + UI</title>
+    <effort>2448000</effort>
+    <locked-start-date>2013-05-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.752941" g="0.752941" b="0.752941"/>
+      </value>
+    </style>
+    <assignment idref="r14"/>
+  </task>
+  <task id="t51">
+    <title>Development</title>
+    <effort>3168000</effort>
+    <locked-start-date>2013-07-01T12:00:00.000Z</locked-start-date>
+    <style>
+      <value key="gantt-fill-color">
+        <color r="0.752941" g="0.752941" b="0.752941"/>
+      </value>
+    </style>
+    <assignment idref="r12"/>
+  </task>
+  <task id="t53">
+    <title>Mobile Development</title>
+    <type>group</type>
+    <child-task idref="t70"/>
+    <child-task idref="t54"/>
+    <child-task idref="t55"/>
+    <child-task idref="t56"/>
+  </task>
+  <task id="t54">
+    <title>IA</title>
+    <type>group</type>
+    <start-constraint-date>2012-03-07T13:00:00.000Z</start-constraint-date>
+    <child-task idref="t67"/>
+    <child-task idref="t68"/>
+  </task>
+  <task id="t55">
+    <title>DESIGN</title>
+    <effort>860400</effort>
+    <start-constraint-date>2012-03-19T20:00:00.000Z</start-constraint-date>
+    <assignment idref="r8"/>
+  </task>
+  <task id="t56">
+    <title>PROGRAMMING</title>
+    <type>group</type>
+    <start-constraint-date>2012-04-20T18:00:00.000Z</start-constraint-date>
+    <child-task idref="t59"/>
+    <child-task idref="t58"/>
+    <child-task idref="t60"/>
+    <child-task idref="t61"/>
+    <child-task idref="t62"/>
+    <child-task idref="t63"/>
+    <child-task idref="t64"/>
+    <child-task idref="t65"/>
+  </task>
+  <task id="t58">
+    <title>Video Encoding</title>
+    <effort>144000</effort>
+    <start-constraint-date>2012-04-25T18:00:00.000Z</start-constraint-date>
+    <assignment idref="r31"/>
+  </task>
+  <task id="t59">
+    <title>User Profile</title>
+    <effort>144000</effort>
+    <start-constraint-date>2012-03-04T05:00:00.000Z</start-constraint-date>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t60">
+    <title>Upload Syncronization</title>
+    <effort>576000</effort>
+    <start-constraint-date>2012-04-25T17:00:00.000Z</start-constraint-date>
+    <assignment idref="r31"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t61">
+    <title>Video Recorder</title>
+    <effort>288000</effort>
+    <start-constraint-date>2012-05-09T12:00:00.000Z</start-constraint-date>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t62">
+    <title>Registration</title>
+    <effort>144000</effort>
+    <start-constraint-date>2012-06-05T19:00:00.000Z</start-constraint-date>
+    <assignment idref="r6"/>
+    <assignment idref="r31"/>
+  </task>
+  <task id="t63">
+    <title>Data Localization </title>
+    <effort>288000</effort>
+    <start-constraint-date>2012-05-22T15:00:00.000Z</start-constraint-date>
+    <assignment idref="r31"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t64">
+    <title>Geographic Range Search</title>
+    <effort>331200</effort>
+    <start-constraint-date>2012-05-29T15:00:00.000Z</start-constraint-date>
+    <assignment idref="r31"/>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t65">
+    <title>Custom IOS Map</title>
+    <effort>144000</effort>
+    <start-constraint-date>2012-06-05T17:00:00.000Z</start-constraint-date>
+    <assignment idref="r6"/>
+  </task>
+  <task id="t67">
+    <title>Flow Chart</title>
+    <effort>115200</effort>
+    <start-constraint-date>2012-03-04T05:00:00.000Z</start-constraint-date>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t68">
+    <title>Wireframes</title>
+    <effort>288000</effort>
+    <start-constraint-date>2012-03-06T16:00:00.000Z</start-constraint-date>
+    <assignment idref="r9"/>
+  </task>
+  <task id="t70">
+    <title>TESTING</title>
+    <type>group</type>
+    <start-constraint-date>2012-03-04T05:00:00.000Z</start-constraint-date>
+    <child-task idref="t78"/>
+    <child-task idref="t72"/>
+    <child-task idref="t73"/>
+    <child-task idref="t74"/>
+    <child-task idref="t75"/>
+    <child-task idref="t76"/>
+  </task>
+  <task id="t72">
+    <title>UI Test</title>
+    <effort>111600</effort>
+    <start-constraint-date>2012-03-15T12:00:00.000Z</start-constraint-date>
+  </task>
+  <task id="t73">
+    <title>Design Test</title>
+    <effort>86400</effort>
+    <effort-done>28800</effort-done>
+    <start-constraint-date>2012-04-20T19:00:00.000Z</start-constraint-date>
+  </task>
+  <task id="t74">
+    <title>Alpha Test</title>
+    <effort>86400</effort>
+    <start-constraint-date>2012-05-18T18:00:00.000Z</start-constraint-date>
+  </task>
+  <task id="t75">
+    <title>Beta Test 1</title>
+    <effort>86400</effort>
+    <start-constraint-date>2012-05-25T14:00:00.000Z</start-constraint-date>
+  </task>
+  <task id="t76">
+    <title>Beta Test 2</title>
+    <effort>201600</effort>
+    <start-constraint-date>2012-05-31T20:00:00.000Z</start-constraint-date>
+  </task>
+  <task id="t78">
+    <title>Prepare All UI Test Scenarios</title>
+    <effort>86400</effort>
+    <start-constraint-date>2012-03-13T18:00:00.000Z</start-constraint-date>
+  </task>
+  <critical-path root="-1" enabled="true">
+    <color r="1" g="0.5" b="0.5"/>
+  </critical-path>
+</scenario>
