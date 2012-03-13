@@ -157,6 +157,7 @@
     <type>group</type>
     <child-task idref="t4"/>
     <child-task idref="t53"/>
+    <child-task idref="t79"/>
   </task>
   <task id="t1">
     <title>Phase 1 - Optimization for NYC</title>
@@ -716,6 +717,11 @@
     <title>Prepare All UI Test Scenarios</title>
     <effort>86400</effort>
     <start-constraint-date>2012-03-13T18:00:00.000Z</start-constraint-date>
+  </task>
+  <task id="t79">
+    <title>TESTING</title>
+    <effort>28800</effort>
+    <start-constraint-date>2012-03-13T12:00:00.000Z</start-constraint-date>
   </task>
   <critical-path root="-1" enabled="true">
     <color r="1" g="0.5" b="0.5"/>

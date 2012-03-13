@@ -13,8 +13,8 @@
         <column name="Notes" width="20"/>
         <column name="Title" width="294"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t8 t13 t51 t70 t46 t14 t33 t20 t28 t47 t15 t34 t53 t21 t40 t48 t16 t35 t22 t49 t17 t1 t36 t23 t2 t10 t18 t3 t37 t24 t11 t19 t30 t6 t12 t31 t39 t50"/>
-        <selected-items-at-filter-time idrefs="t75 t67 t59 t71 t63 t55 t76 t68 t72 t64 t56 t77 t69 t60 t73 t65 t57 t78 t61 t53 t74 t66 t58 t70 t62 t54"/>
+        <expanded-items idrefs="t13 t8 t51 t70 t46 t14 t33 t20 t28 t47 t15 t34 t53 t21 t40 t48 t16 t35 t22 t49 t17 t1 t36 t23 t2 t10 t18 t3 t37 t24 t11 t19 t30 t6 t12 t31 t39 t50"/>
+        <selected-items-at-filter-time idrefs="t75 t67 t59 t63 t55 t76 t68 t72 t64 t56 t60 t73 t65 t78 t61 t53 t74 t58 t79 t70 t62 t54"/>
       </outline>
       <gantt-view x="26" y="0" w="1198" h="843">
         <view-mode>actual</view-mode>
@@ -68,10 +68,9 @@
         <column name="Type" width="48"/>
         <column name="Resource" width="216"/>
         <column name="#" width="75"/>
-        <expanded-items idrefs="r2 r7 r12 r3 r8 r10 r4 r29 r30 r13 r9 r5 r33 r16 r11 r6 r19 r31 r14"/>
-        <selected-items-at-filter-time idrefs="r34"/>
+        <expanded-items idrefs="r14 r7 r12 r3 r8 r10 r4 r29 r9 r13 r30 r5 r33 r16 r11 r6 r19 r31 r2"/>
       </outline>
-      <timeline x="14" y="0" w="1179" h="843">
+      <timeline x="157" y="0" w="1179" h="843">
         <critical-path/>
         <constraints/>
         <resource-allocation/>
@@ -123,13 +122,13 @@
         <column name="Resource" width="621"/>
         <column name="Custom Work Week" width="20"/>
         <column name="Schedule Exception" width="20"/>
-        <expanded-items idrefs="r2 r7 r12 r3 r8 r10 r4 r29 r30 r13 r9 r5 r33 r16 r11 r6 r19 r31 r14"/>
+        <expanded-items idrefs="r14 r7 r12 r3 r8 r10 r4 r29 r9 r13 r30 r5 r33 r16 r11 r6 r19 r31 r2"/>
       </outline>
     </calendar>
   </window>
   <project>
     <title>DevTimeline</title>
-    <next-task-id>79</next-task-id>
+    <next-task-id>80</next-task-id>
     <next-resource-id>35</next-resource-id>
     <scenario id="pW6FkDiHLPz" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
